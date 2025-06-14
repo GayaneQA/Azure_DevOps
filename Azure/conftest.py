@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 import pytest
 import logging
 import os
@@ -8,7 +9,9 @@ from datetime import datetime
 
 @pytest.fixture()
 def test_driver():
-    driver = webdriver.Chrome()
+    options = Options()
+    options.add_argument("--headless")
+    driver = webdriver.Chrome(options=options)
     driver.maximize_window()
     yield driver
     driver.quit()
@@ -44,3 +47,4 @@ def test_logger(request):
 #                 item.funcargs.get("test_driver").get_screenshot_as_png(),
 #                 name=f"{item.name}_screen",
 #                 attachment_type=allure.attachment_type.PNG)
+
