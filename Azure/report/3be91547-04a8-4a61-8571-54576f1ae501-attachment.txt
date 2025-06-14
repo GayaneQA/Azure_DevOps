@@ -1,0 +1,77 @@
+[32mINFO    [0m test_1:conftest.py:35 test_1 is started
+[32mINFO    [0m test_1:helper.py:16 Opened page: https://qwallity-prod.onrender.com/
+[32mINFO    [0m test_1:test_1.py:24 Started authorization test
+[1m[31mERROR   [0m test_1:helper.py:58 email_field could not receive keys: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69775fe75+79173]
+	GetHandleVerifier [0x0x7ff69775fed0+79264]
+	(No symbol) [0x0x7ff697519e5a]
+	(No symbol) [0x0x7ff697570586]
+	(No symbol) [0x0x7ff69757083c]
+	(No symbol) [0x0x7ff6975c4247]
+	(No symbol) [0x0x7ff6975989af]
+	(No symbol) [0x0x7ff6975c100d]
+	(No symbol) [0x0x7ff697598743]
+	(No symbol) [0x0x7ff6975614c1]
+	(No symbol) [0x0x7ff697562253]
+	GetHandleVerifier [0x0x7ff697a2a2ad+3004797]
+	GetHandleVerifier [0x0x7ff697a246fd+2981325]
+	GetHandleVerifier [0x0x7ff697a43350+3107360]
+	GetHandleVerifier [0x0x7ff69777a9fe+188622]
+	GetHandleVerifier [0x0x7ff69778228f+219487]
+	GetHandleVerifier [0x0x7ff697768dc4+115860]
+	GetHandleVerifier [0x0x7ff697768f79+116297]
+	GetHandleVerifier [0x0x7ff69774f528+11256]
+	BaseThreadInitThunk [0x0x7ffd02d5259d+29]
+	RtlUserThreadStart [0x0x7ffd049eaf58+40]
+
+[1m[31mERROR   [0m test_1:helper.py:58 code_field could not receive keys: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69775fe75+79173]
+	GetHandleVerifier [0x0x7ff69775fed0+79264]
+	(No symbol) [0x0x7ff697519e5a]
+	(No symbol) [0x0x7ff697570586]
+	(No symbol) [0x0x7ff69757083c]
+	(No symbol) [0x0x7ff6975c4247]
+	(No symbol) [0x0x7ff6975989af]
+	(No symbol) [0x0x7ff6975c100d]
+	(No symbol) [0x0x7ff697598743]
+	(No symbol) [0x0x7ff6975614c1]
+	(No symbol) [0x0x7ff697562253]
+	GetHandleVerifier [0x0x7ff697a2a2ad+3004797]
+	GetHandleVerifier [0x0x7ff697a246fd+2981325]
+	GetHandleVerifier [0x0x7ff697a43350+3107360]
+	GetHandleVerifier [0x0x7ff69777a9fe+188622]
+	GetHandleVerifier [0x0x7ff69778228f+219487]
+	GetHandleVerifier [0x0x7ff697768dc4+115860]
+	GetHandleVerifier [0x0x7ff697768f79+116297]
+	GetHandleVerifier [0x0x7ff69774f528+11256]
+	BaseThreadInitThunk [0x0x7ffd02d5259d+29]
+	RtlUserThreadStart [0x0x7ffd049eaf58+40]
+
+[1m[31mERROR   [0m test_1:helper.py:48 send_button is not clickable: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69775fe75+79173]
+	GetHandleVerifier [0x0x7ff69775fed0+79264]
+	(No symbol) [0x0x7ff697519e5a]
+	(No symbol) [0x0x7ff697570586]
+	(No symbol) [0x0x7ff69757083c]
+	(No symbol) [0x0x7ff6975c4247]
+	(No symbol) [0x0x7ff6975989af]
+	(No symbol) [0x0x7ff6975c100d]
+	(No symbol) [0x0x7ff697598743]
+	(No symbol) [0x0x7ff6975614c1]
+	(No symbol) [0x0x7ff697562253]
+	GetHandleVerifier [0x0x7ff697a2a2ad+3004797]
+	GetHandleVerifier [0x0x7ff697a246fd+2981325]
+	GetHandleVerifier [0x0x7ff697a43350+3107360]
+	GetHandleVerifier [0x0x7ff69777a9fe+188622]
+	GetHandleVerifier [0x0x7ff69778228f+219487]
+	GetHandleVerifier [0x0x7ff697768dc4+115860]
+	GetHandleVerifier [0x0x7ff697768f79+116297]
+	GetHandleVerifier [0x0x7ff69774f528+11256]
+	BaseThreadInitThunk [0x0x7ffd02d5259d+29]
+	RtlUserThreadStart [0x0x7ffd049eaf58+40]
+
+[1m[31mERROR   [0m test_1:helper.py:27 Element not found: welcome_guest
+[32mINFO    [0m test_1:conftest.py:37 test_1 is finished

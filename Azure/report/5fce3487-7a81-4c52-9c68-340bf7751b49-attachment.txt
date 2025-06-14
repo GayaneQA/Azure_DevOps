@@ -1,0 +1,30 @@
+[32mINFO    [0m test_1:conftest.py:35 test_1 is started
+[32mINFO    [0m test_1:helper.py:16 Opened page: https://qwallity-prod.onrender.com/
+[32mINFO    [0m test_1:test_1.py:24 Started authorization test
+[32mINFO    [0m test_1:helper.py:56 Sent keys to: email_field
+[32mINFO    [0m test_1:helper.py:56 Sent keys to: code_field
+[32mINFO    [0m test_1:helper.py:46 Clicked on: send_button
+[32mINFO    [0m test_1:helper.py:24 Found element: welcome_guest
+[32mINFO    [0m test_1:test_1.py:28 Finished authorization test
+[32mINFO    [0m test_1:test_1.py:29 Test passed.
+[32mINFO    [0m test_1:helper.py:16 Opened page: https://qwallity-prod.onrender.com/home
+[32mINFO    [0m test_1:test_1.py:31 Started registration test
+[32mINFO    [0m test_1:helper.py:46 Clicked on: register_button
+[32mINFO    [0m test_1:helper.py:56 Sent keys to: name_field
+[32mINFO    [0m test_1:helper.py:56 Sent keys to: email_field
+[32mINFO    [0m test_1:helper.py:56 Sent keys to: username_field
+[32mINFO    [0m test_1:helper.py:56 Sent keys to: password_field
+[32mINFO    [0m test_1:helper.py:56 Sent keys to: confirm_password_field
+[32mINFO    [0m test_1:helper.py:46 Clicked on: submit_button
+[32mINFO    [0m test_1:helper.py:24 Found element: successfully registered
+[32mINFO    [0m test_1:test_1.py:37 Finished registration test
+[32mINFO    [0m test_1:test_1.py:38 Test passed.
+[32mINFO    [0m test_1:helper.py:16 Opened page: https://qwallity-prod.onrender.com/login
+[32mINFO    [0m test_1:test_1.py:40 Started login test
+[32mINFO    [0m test_1:helper.py:56 Sent keys to: username_field
+[32mINFO    [0m test_1:helper.py:56 Sent keys to: password_field
+[32mINFO    [0m test_1:helper.py:46 Clicked on: login_button
+[32mINFO    [0m test_1:helper.py:24 Found element: log_out_button
+[32mINFO    [0m test_1:test_1.py:45 Login successful
+[32mINFO    [0m test_1:test_1.py:46 Finished login test
+[32mINFO    [0m test_1:conftest.py:37 test_1 is finished
